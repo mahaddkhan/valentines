@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Valentine Letter</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Fullscreen letter page */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: "Steph", sans-serif;
+      background: linear-gradient(135deg, #ffe6ea, #ffd6dc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .letter-container {
+      max-width: 800px;
+      width: 90%;
+      max-height: 90%;
+      background: #fff1f3;
+      padding: 24px 32px;
+      border-radius: 12px;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.15);
+      overflow-y: auto;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInLetter 1s forwards;
+    }
+
+    @keyframes fadeInLetter {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Reduced gap between heading and body */
+    h1, p {
+      margin: 0 0 12px 0; /* smaller gap */
+      line-height: 1.6;
+      color: #222;
+    }
+
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 16px; /* slightly tighter */
+    }
+
+    p {
+      font-size: 1rem;
+      white-space: pre-wrap; /* preserve line breaks */
+    }
+
+    /* Scrollbar styling for the letter */
+    .letter-container::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .letter-container::-webkit-scrollbar-thumb {
+      background-color: #ff4d6d;
+      border-radius: 4px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .letter-container {
+        padding: 16px 20px;
+      }
+
+      h1 { font-size: 1.5rem; margin-bottom: 12px; }
+      p { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="letter-container">
+    <h1>Happy Valentines Day Mimi ❤️</h1>
+    <p>
+HAIIIII BABY!! its our second valentines tgt soon and i rem the last one like yesttt. i rem u saying ke dont do anything for valentines and chalta h but istrhan ki choti choti cheezain mean alottt for me baby so here i am for u with this letter. last time i gave u tht sily plushie and this time i have a cute surprise for u :3 (this website hehe) I HOPE U LIKE IT AHAHAHHA u said u want it so i had to put some effort yuh ANYWAYS i love you so so so much baby always rem tht if u need any1 to rely on and get comforted by, IM HEREE. ill always be by ur side, in ur good and bad phases, ups and downs THRU EVERYTHING. ill always be there to make u happy. ik sometimes i can be a really bad bf and be a lil annoying too but ma bad im js like tht, bas ye h ke i care toooo much abt u. u mean so much to me ke i cant see u hurt or sad AT ALL. u mean way too much to me and if anything happens to u idk what ill ever do.
+
+i want to stay by ur side forvr and marry u one day obv and i js want to let u know ke ill never leave u cuz ur the most amazing pretty person ik likeee u have no flaws and are litr PERFECT. ur way better than i deserve and im so so glad to have u :( ANYWAYS I DONT WANNA GET TOO EMO AHAHAHAH but yeah baby i love you so so so much, our roblox sesh movie sesh long convos are alwaus so fun and theyre the cure for everything for me. i always feel sm better after interacting wit u ANYWAYSSS I LOVE UUUUUUU and once again
+
+Happy Valentines Day Mimi ❤️
+    </p>
+  </div>
+</body>
+</html>
